@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">XPosedPlugin</string>
+    <string name="introduce">统计应用调用系统隐私API，输出日志</string>
+</resources>
