@@ -13,17 +13,17 @@ dependencies {
 
 2、在AndroidManifest.xml中添加声明
 ```
-        <meta-data
-            android:name="xposedmodule"
-            android:value="true" />
+<meta-data
+    android:name="xposedmodule"
+    android:value="true" />
 
-        <meta-data
-            android:name="xposedminversion"
-            android:value="54" />
+<meta-data
+    android:name="xposedminversion"
+    android:value="54" />
 
-        <meta-data
-            android:name="xposeddescription"
-            android:value="这是插件的描述，在添加的时候会在插件列表展示出来" />
+<meta-data
+    android:name="xposeddescription"
+    android:value="这是插件的描述，在添加的时候会在插件列表展示出来" />
 ```
 
 3、新建java类，实现IXposedHookLoadPackage接口。并重写handleLoadPackage方法。
