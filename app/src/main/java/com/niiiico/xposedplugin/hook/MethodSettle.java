@@ -3,11 +3,11 @@ package com.niiiico.xposedplugin.hook;
 import de.robv.android.xposed.XC_MethodHook;
 import de.robv.android.xposed.XposedBridge;
 
-public class EdjStackHook extends XC_MethodHook {
+public class MethodSettle extends XC_MethodHook {
     private final String processName;
     private final String packageName;
 
-    public EdjStackHook(String processName, String packageName) {
+    public MethodSettle(String processName, String packageName) {
         this.processName = processName;
         this.packageName = packageName;
     }
