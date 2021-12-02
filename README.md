@@ -30,4 +30,4 @@ dependencies {
 
 4、在assets目录下新建文件xposed_init，内容为IXposedHookLoadPackage实现类的路径。
 
-blog:https://www.jianshu.com/p/bcc3b72f02ba
+5、blog:https://www.jianshu.com/p/bcc3b72f02ba
